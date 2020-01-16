@@ -23,8 +23,6 @@
   "frameworks": "espidf",
   "platforms": "espressif32",
   "build": {
-    "flags": [
-        "-I include/"
-    ]
+    "includeDir": "include/"
   }
 }
